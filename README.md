@@ -1,5 +1,7 @@
 # AI Character Data Master
 
+日本語版: [README.ja.md](README.ja.md)
+
 ## Overview
 This repository maintains normalized master data for anime, game, manga and related characters for use with image generation AI and LLM applications.
 
