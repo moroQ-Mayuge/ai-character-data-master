@@ -1,0 +1,1357 @@
+{
+  "schema_version": "0.1",
+  "batch": {
+    "start_source_index": 31,
+    "end_source_index": 60,
+    "processed_count": 30,
+    "created_at": "2026-07-09T14:50:41+09:00"
+  },
+  "policy": {
+    "source_file": "data/org_charlist.csv",
+    "source_file_sha": "93194dd072c2f14d013d0e7b9938fb740db7714a",
+    "research_policy_sha": "fc491ea2aaf0f9cb291da7786ce266c9dc64d2bd",
+    "note": "Original CSV was not modified. Ambiguous entries are marked needs_review/skipped. Danbooru tag URLs and official/work URLs are recorded for later low-frequency confirmation."
+  },
+  "results": [
+    {
+      "id": "char_000031_adachi_sakura",
+      "source": {
+        "source_index": 31,
+        "source_name": "足立咲",
+        "source_tag": "adachi sakura"
+      },
+      "names": {
+        "ja": "安達桜",
+        "en": "Sakura Adachi",
+        "zh": "足立咲",
+        "aliases": []
+      },
+      "work": {
+        "title_ja": "安達としまむら",
+        "title_original": "安達としまむら",
+        "title_en": "Adachi and Shimamura",
+        "type": "light_novel",
+        "franchise": "安達としまむら"
+      },
+      "danbooru": {
+        "character_tag": "adachi sakura",
+        "copyright_tag": "adachi_to_shimamura",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "安達桜",
+        "備考": "作品名候補は安達としまむら。Danbooruタグはsource_tagから正規化。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/adachi_sakura"
+        },
+        {
+          "type": "major_reference",
+          "url": "https://ja.wikipedia.org/wiki/安達としまむら"
+        }
+      ],
+      "confidence": "medium",
+      "status": "confirmed",
+      "review_note": "作品名候補は安達としまむら。Danbooruタグはsource_tagから正規化。"
+    },
+    {
+      "id": "char_000032_adepta_sororitas",
+      "source": {
+        "source_index": 32,
+        "source_name": "战斗修女（战锤）",
+        "source_tag": "adepta sororitas"
+      },
+      "names": {
+        "ja": "戦闘修道女",
+        "en": "Adepta Sororitas",
+        "zh": "战斗修女（战锤）",
+        "aliases": [
+          "シスター・オヴ・バトル"
+        ]
+      },
+      "work": {
+        "title_ja": "ウォーハンマー40,000",
+        "title_original": "Warhammer 40,000",
+        "title_en": "Warhammer 40,000",
+        "type": "other",
+        "franchise": "Warhammer"
+      },
+      "danbooru": {
+        "character_tag": "adepta sororitas",
+        "copyright_tag": "warhammer_40k",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "戦闘修道女",
+        "備考": "個別キャラクターではなく勢力・兵科タグのためキャラマスター化は要検討。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/adepta_sororitas"
+        },
+        {
+          "type": "major_reference",
+          "url": "https://warhammer40k.fandom.com/wiki/Adepta_Sororitas"
+        }
+      ],
+      "confidence": "medium",
+      "status": "skipped",
+      "review_note": "個別キャラクターではなく勢力・兵科タグのためキャラマスター化は要検討。"
+    },
+    {
+      "id": "char_000033_adeptus_astartes",
+      "source": {
+        "source_index": 33,
+        "source_name": "星际战士（战锤）",
+        "source_tag": "adeptus astartes"
+      },
+      "names": {
+        "ja": "アデプトゥス・アスタルテス",
+        "en": "Adeptus Astartes",
+        "zh": "星际战士（战锤）",
+        "aliases": [
+          "スペースマリーン"
+        ]
+      },
+      "work": {
+        "title_ja": "ウォーハンマー40,000",
+        "title_original": "Warhammer 40,000",
+        "title_en": "Warhammer 40,000",
+        "type": "other",
+        "franchise": "Warhammer"
+      },
+      "danbooru": {
+        "character_tag": "adeptus astartes",
+        "copyright_tag": "warhammer_40k",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "アデプトゥス・アスタルテス",
+        "備考": "個別キャラクターではなく勢力・兵科タグのためキャラマスター化は要検討。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/adeptus_astartes"
+        },
+        {
+          "type": "major_reference",
+          "url": "https://warhammer40k.fandom.com/wiki/Space_Marines"
+        }
+      ],
+      "confidence": "medium",
+      "status": "skipped",
+      "review_note": "個別キャラクターではなく勢力・兵科タグのためキャラマスター化は要検討。"
+    },
+    {
+      "id": "char_000034_admiral_kancolle",
+      "source": {
+        "source_index": 34,
+        "source_name": "提督（舰队Collection）",
+        "source_tag": "admiral (kancolle)"
+      },
+      "names": {
+        "ja": "提督",
+        "en": "Admiral",
+        "zh": "提督（舰队Collection）",
+        "aliases": []
+      },
+      "work": {
+        "title_ja": "艦隊これくしょん -艦これ-",
+        "title_original": "艦隊これくしょん -艦これ-",
+        "title_en": "Kantai Collection",
+        "type": "game",
+        "franchise": "艦隊これくしょん"
+      },
+      "danbooru": {
+        "character_tag": "admiral (kancolle)",
+        "copyright_tag": "kantai_collection",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "提督",
+        "備考": "プレイヤー/司令官相当の汎用タグで、個別キャラクターではない可能性がある。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/admiral_%28kancolle%29"
+        },
+        {
+          "type": "official",
+          "url": "https://www.dmm.com/netgame/feature/kancolle.html"
+        }
+      ],
+      "confidence": "medium",
+      "status": "needs_review",
+      "review_note": "プレイヤー/司令官相当の汎用タグで、個別キャラクターではない可能性がある。"
+    },
+    {
+      "id": "char_000035_admiral_graf_spee_azur_lane",
+      "source": {
+        "source_index": 35,
+        "source_name": "施佩伯爵海军上将（碧蓝航线）",
+        "source_tag": "admiral graf spee (azur lane)"
+      },
+      "names": {
+        "ja": "アドミラル・グラーフ・シュペー",
+        "en": "Admiral Graf Spee",
+        "zh": "施佩伯爵海军上将（碧蓝航线）",
+        "aliases": []
+      },
+      "work": {
+        "title_ja": "アズールレーン",
+        "title_original": "碧蓝航线",
+        "title_en": "Azur Lane",
+        "type": "game",
+        "franchise": "アズールレーン"
+      },
+      "danbooru": {
+        "character_tag": "admiral graf spee (azur lane)",
+        "copyright_tag": "azur_lane",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "アドミラル・グラーフ・シュペー",
+        "備考": "アズールレーンの艦船キャラクター。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/admiral_graf_spee_%28azur_lane%29"
+        },
+        {
+          "type": "official",
+          "url": "https://www.azurlane.jp/"
+        }
+      ],
+      "confidence": "high",
+      "status": "confirmed",
+      "review_note": "アズールレーンの艦船キャラクター。"
+    },
+    {
+      "id": "char_000036_admiral_hipper_azur_lane",
+      "source": {
+        "source_index": 36,
+        "source_name": "希佩尔海军上将（碧蓝航线）",
+        "source_tag": "admiral hipper (azur lane)"
+      },
+      "names": {
+        "ja": "アドミラル・ヒッパー",
+        "en": "Admiral Hipper",
+        "zh": "希佩尔海军上将（碧蓝航线）",
+        "aliases": []
+      },
+      "work": {
+        "title_ja": "アズールレーン",
+        "title_original": "碧蓝航线",
+        "title_en": "Azur Lane",
+        "type": "game",
+        "franchise": "アズールレーン"
+      },
+      "danbooru": {
+        "character_tag": "admiral hipper (azur lane)",
+        "copyright_tag": "azur_lane",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "アドミラル・ヒッパー",
+        "備考": "アズールレーンの艦船キャラクター。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/admiral_hipper_%28azur_lane%29"
+        },
+        {
+          "type": "official",
+          "url": "https://www.azurlane.jp/"
+        }
+      ],
+      "confidence": "high",
+      "status": "confirmed",
+      "review_note": "アズールレーンの艦船キャラクター。"
+    },
+    {
+      "id": "char_000037_admire_vega_umamusume",
+      "source": {
+        "source_index": 37,
+        "source_name": "爱慕织女（赛马娘）",
+        "source_tag": "admire vega (umamusume)"
+      },
+      "names": {
+        "ja": "アドマイヤベガ",
+        "en": "Admire Vega",
+        "zh": "爱慕织女（赛马娘）",
+        "aliases": []
+      },
+      "work": {
+        "title_ja": "ウマ娘 プリティーダービー",
+        "title_original": "ウマ娘 プリティーダービー",
+        "title_en": "Umamusume: Pretty Derby",
+        "type": "game",
+        "franchise": "ウマ娘"
+      },
+      "danbooru": {
+        "character_tag": "admire vega (umamusume)",
+        "copyright_tag": "umamusume",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "アドマイヤベガ",
+        "備考": "ウマ娘 プリティーダービーの育成ウマ娘。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/admire_vega_%28umamusume%29"
+        },
+        {
+          "type": "official",
+          "url": "https://umamusume.jp/"
+        }
+      ],
+      "confidence": "high",
+      "status": "confirmed",
+      "review_note": "ウマ娘 プリティーダービーの育成ウマ娘。"
+    },
+    {
+      "id": "char_000038_adrien_agreste",
+      "source": {
+        "source_index": 38,
+        "source_name": "阿德里安（瓢虫少女）",
+        "source_tag": "adrien agreste"
+      },
+      "names": {
+        "ja": "アドリアン・アグレスト",
+        "en": "Adrien Agreste",
+        "zh": "阿德里安（瓢虫少女）",
+        "aliases": [
+          "シャノワール"
+        ]
+      },
+      "work": {
+        "title_ja": "ミラキュラス レディバグ&シャノワール",
+        "title_original": "Miraculous: Tales of Ladybug & Cat Noir",
+        "title_en": "Miraculous: Tales of Ladybug & Cat Noir",
+        "type": "anime",
+        "franchise": "Miraculous"
+      },
+      "danbooru": {
+        "character_tag": "adrien agreste",
+        "copyright_tag": "miraculous_ladybug",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "アドリアン・アグレスト",
+        "備考": "日本語公式表記はアドリアン・アグレスト。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/adrien_agreste"
+        },
+        {
+          "type": "major_reference",
+          "url": "https://www.toei-anim.co.jp/tv/miraculous/"
+        }
+      ],
+      "confidence": "high",
+      "status": "confirmed",
+      "review_note": "日本語公式表記はアドリアン・アグレスト。"
+    },
+    {
+      "id": "char_000039_adult_neptune",
+      "source": {
+        "source_index": 39,
+        "source_name": "成年涅普顿（超次元游戏海王星）",
+        "source_tag": "adult neptune"
+      },
+      "names": {
+        "ja": "大人ネプテューヌ",
+        "en": "Adult Neptune",
+        "zh": "成年涅普顿（超次元游戏海王星）",
+        "aliases": []
+      },
+      "work": {
+        "title_ja": "新次元ゲイム ネプテューヌVII",
+        "title_original": "新次元ゲイム ネプテューヌVII",
+        "title_en": "Megadimension Neptunia VII",
+        "type": "game",
+        "franchise": "ネプテューヌ"
+      },
+      "danbooru": {
+        "character_tag": "adult neptune",
+        "copyright_tag": "neptune_(series)",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "大人ネプテューヌ",
+        "備考": "派生形態/別次元キャラクターの扱いとして要確認。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/adult_neptune"
+        },
+        {
+          "type": "official",
+          "url": "https://www.compileheart.com/neptune/v2/"
+        }
+      ],
+      "confidence": "medium",
+      "status": "needs_review",
+      "review_note": "派生形態/別次元キャラクターの扱いとして要確認。"
+    },
+    {
+      "id": "char_000040_aegir_azur_lane",
+      "source": {
+        "source_index": 40,
+        "source_name": "埃吉尔（碧蓝航线）",
+        "source_tag": "aegir (azur lane)"
+      },
+      "names": {
+        "ja": "エーギル",
+        "en": "Ägir",
+        "zh": "埃吉尔（碧蓝航线）",
+        "aliases": [
+          "エギル"
+        ]
+      },
+      "work": {
+        "title_ja": "アズールレーン",
+        "title_original": "碧蓝航线",
+        "title_en": "Azur Lane",
+        "type": "game",
+        "franchise": "アズールレーン"
+      },
+      "danbooru": {
+        "character_tag": "aegir (azur lane)",
+        "copyright_tag": "azur_lane",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "エーギル",
+        "備考": "アズールレーンの艦船キャラクター。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/aegir_%28azur_lane%29"
+        },
+        {
+          "type": "official",
+          "url": "https://www.azurlane.jp/"
+        }
+      ],
+      "confidence": "high",
+      "status": "confirmed",
+      "review_note": "アズールレーンの艦船キャラクター。"
+    },
+    {
+      "id": "char_000041_aegir_housamo",
+      "source": {
+        "source_index": 41,
+        "source_name": "埃吉尔（东京放学后召唤师）",
+        "source_tag": "aegir (housamo)"
+      },
+      "names": {
+        "ja": "エーギル",
+        "en": "Aegir",
+        "zh": "埃吉尔（东京放学后召唤师）",
+        "aliases": []
+      },
+      "work": {
+        "title_ja": "東京放課後サモナーズ",
+        "title_original": "東京放課後サモナーズ",
+        "title_en": "Tokyo Afterschool Summoners",
+        "type": "game",
+        "franchise": "東京放課後サモナーズ"
+      },
+      "danbooru": {
+        "character_tag": "aegir (housamo)",
+        "copyright_tag": "tokyo_afterschool_summoners",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "エーギル",
+        "備考": "東京放課後サモナーズのキャラクター。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/aegir_%28housamo%29"
+        },
+        {
+          "type": "official",
+          "url": "https://housamo.jp/"
+        }
+      ],
+      "confidence": "medium",
+      "status": "confirmed",
+      "review_note": "東京放課後サモナーズのキャラクター。"
+    },
+    {
+      "id": "char_000042_aegis_persona",
+      "source": {
+        "source_index": 42,
+        "source_name": "埃癸斯（女神异闻录）",
+        "source_tag": "aegis (persona)"
+      },
+      "names": {
+        "ja": "アイギス",
+        "en": "Aigis",
+        "zh": "埃癸斯（女神异闻录）",
+        "aliases": [
+          "Aegis"
+        ]
+      },
+      "work": {
+        "title_ja": "ペルソナ3",
+        "title_original": "ペルソナ3",
+        "title_en": "Persona 3",
+        "type": "game",
+        "franchise": "ペルソナ"
+      },
+      "danbooru": {
+        "character_tag": "aegis (persona)",
+        "copyright_tag": "persona",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "アイギス",
+        "備考": "英語表記はAigisが一般的。source_tagとの表記差を要確認。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/aegis_%28persona%29"
+        },
+        {
+          "type": "official",
+          "url": "https://p3re.jp/"
+        }
+      ],
+      "confidence": "medium",
+      "status": "needs_review",
+      "review_note": "英語表記はAigisが一般的。source_tagとの表記差を要確認。"
+    },
+    {
+      "id": "char_000043_aerith_gainsborough",
+      "source": {
+        "source_index": 43,
+        "source_name": "艾丽丝·盖恩斯巴勒（最终幻想7）",
+        "source_tag": "aerith gainsborough"
+      },
+      "names": {
+        "ja": "エアリス・ゲインズブール",
+        "en": "Aerith Gainsborough",
+        "zh": "艾丽丝·盖恩斯巴勒（最终幻想7）",
+        "aliases": []
+      },
+      "work": {
+        "title_ja": "ファイナルファンタジーVII",
+        "title_original": "FINAL FANTASY VII",
+        "title_en": "Final Fantasy VII",
+        "type": "game",
+        "franchise": "Final Fantasy"
+      },
+      "danbooru": {
+        "character_tag": "aerith gainsborough",
+        "copyright_tag": "final_fantasy_vii",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "エアリス・ゲインズブール",
+        "備考": "FINAL FANTASY VIIの主要キャラクター。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/aerith_gainsborough"
+        },
+        {
+          "type": "official",
+          "url": "https://www.jp.square-enix.com/ffvii_rebirth/"
+        }
+      ],
+      "confidence": "high",
+      "status": "confirmed",
+      "review_note": "FINAL FANTASY VIIの主要キャラクター。"
+    },
+    {
+      "id": "char_000044_aerith_gainsborough_red_dress",
+      "source": {
+        "source_index": 44,
+        "source_name": "艾丽丝·盖恩斯巴勒（红礼服）（最终幻想7）",
+        "source_tag": "aerith gainsborough (red dress)"
+      },
+      "names": {
+        "ja": "エアリス・ゲインズブール（赤いドレス）",
+        "en": "Aerith Gainsborough (Red Dress)",
+        "zh": "艾丽丝·盖恩斯巴勒（红礼服）（最终幻想7）",
+        "aliases": []
+      },
+      "work": {
+        "title_ja": "ファイナルファンタジーVII リメイク",
+        "title_original": "FINAL FANTASY VII REMAKE",
+        "title_en": "Final Fantasy VII Remake",
+        "type": "game",
+        "franchise": "Final Fantasy"
+      },
+      "danbooru": {
+        "character_tag": "aerith gainsborough (red dress)",
+        "copyright_tag": "final_fantasy_vii",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "エアリス・ゲインズブール（赤いドレス）",
+        "備考": "衣装差分タグのため日本語正式名は要確認。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/aerith_gainsborough_%28red_dress%29"
+        },
+        {
+          "type": "official",
+          "url": "https://www.jp.square-enix.com/ffvii_remake/"
+        }
+      ],
+      "confidence": "medium",
+      "status": "needs_review",
+      "review_note": "衣装差分タグのため日本語正式名は要確認。"
+    },
+    {
+      "id": "char_000045_aesc_fate",
+      "source": {
+        "source_index": 45,
+        "source_name": "梣（Fate）",
+        "source_tag": "aesc (fate)"
+      },
+      "names": {
+        "ja": "トネリコ",
+        "en": "Aesc",
+        "zh": "梣（Fate）",
+        "aliases": [
+          "救世主トネリコ"
+        ]
+      },
+      "work": {
+        "title_ja": "Fate/Grand Order",
+        "title_original": "Fate/Grand Order",
+        "title_en": "Fate/Grand Order",
+        "type": "game",
+        "franchise": "Fate"
+      },
+      "danbooru": {
+        "character_tag": "aesc (fate)",
+        "copyright_tag": "fate/grand_order",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "トネリコ",
+        "備考": "日本語名はトネリコ系表記。霊基・段階差分の可能性があり要確認。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/aesc_%28fate%29"
+        },
+        {
+          "type": "official",
+          "url": "https://www.fate-go.jp/"
+        }
+      ],
+      "confidence": "medium",
+      "status": "needs_review",
+      "review_note": "日本語名はトネリコ系表記。霊基・段階差分の可能性があり要確認。"
+    },
+    {
+      "id": "char_000046_aesc_rain_witch_fate",
+      "source": {
+        "source_index": 46,
+        "source_name": "梣（雨之魔女）（Fate）",
+        "source_tag": "aesc (rain witch) (fate)"
+      },
+      "names": {
+        "ja": "トネリコ（雨の魔女）",
+        "en": "Aesc (Rain Witch)",
+        "zh": "梣（雨之魔女）（Fate）",
+        "aliases": [
+          "雨の魔女トネリコ"
+        ]
+      },
+      "work": {
+        "title_ja": "Fate/Grand Order",
+        "title_original": "Fate/Grand Order",
+        "title_en": "Fate/Grand Order",
+        "type": "game",
+        "franchise": "Fate"
+      },
+      "danbooru": {
+        "character_tag": "aesc (rain witch) (fate)",
+        "copyright_tag": "fate/grand_order",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "トネリコ（雨の魔女）",
+        "備考": "霊基/衣装差分タグのため日本語正式表記は要確認。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/aesc_%28rain_witch%29_%28fate%29"
+        },
+        {
+          "type": "official",
+          "url": "https://www.fate-go.jp/"
+        }
+      ],
+      "confidence": "medium",
+      "status": "needs_review",
+      "review_note": "霊基/衣装差分タグのため日本語正式表記は要確認。"
+    },
+    {
+      "id": "char_000047_aether_genshin_impact",
+      "source": {
+        "source_index": 47,
+        "source_name": "空（原神）",
+        "source_tag": "aether (genshin impact)"
+      },
+      "names": {
+        "ja": "空",
+        "en": "Aether",
+        "zh": "空（原神）",
+        "aliases": [
+          "旅人"
+        ]
+      },
+      "work": {
+        "title_ja": "原神",
+        "title_original": "原神",
+        "title_en": "Genshin Impact",
+        "type": "game",
+        "franchise": "原神"
+      },
+      "danbooru": {
+        "character_tag": "aether (genshin impact)",
+        "copyright_tag": "genshin_impact",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "空",
+        "備考": "原神の男性主人公。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/aether_%28genshin_impact%29"
+        },
+        {
+          "type": "official",
+          "url": "https://genshin.hoyoverse.com/ja/"
+        }
+      ],
+      "confidence": "high",
+      "status": "confirmed",
+      "review_note": "原神の男性主人公。"
+    },
+    {
+      "id": "char_000048_aether_foundation_employee",
+      "source": {
+        "source_index": 48,
+        "source_name": "以太基金会职员（宝可梦）",
+        "source_tag": "aether foundation employee"
+      },
+      "names": {
+        "ja": "エーテル財団職員",
+        "en": "Aether Foundation Employee",
+        "zh": "以太基金会职员（宝可梦）",
+        "aliases": []
+      },
+      "work": {
+        "title_ja": "ポケットモンスター サン・ムーン",
+        "title_original": "ポケットモンスター サン・ムーン",
+        "title_en": "Pokémon Sun and Moon",
+        "type": "game",
+        "franchise": "ポケットモンスター"
+      },
+      "danbooru": {
+        "character_tag": "aether foundation employee",
+        "copyright_tag": "pokemon",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "エーテル財団職員",
+        "備考": "個別名を持つキャラクターではなく職員/トレーナー種別タグの可能性がある。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/aether_foundation_employee"
+        },
+        {
+          "type": "official",
+          "url": "https://www.pokemon.co.jp/"
+        }
+      ],
+      "confidence": "medium",
+      "status": "needs_review",
+      "review_note": "個別名を持つキャラクターではなく職員/トレーナー種別タグの可能性がある。"
+    },
+    {
+      "id": "char_000049_african_wild_dog_kemono_friends",
+      "source": {
+        "source_index": 49,
+        "source_name": "非洲野犬（兽娘动物园）",
+        "source_tag": "african wild dog (kemono friends)"
+      },
+      "names": {
+        "ja": "リカオン",
+        "en": "African Wild Dog",
+        "zh": "非洲野犬（兽娘动物园）",
+        "aliases": []
+      },
+      "work": {
+        "title_ja": "けものフレンズ",
+        "title_original": "けものフレンズ",
+        "title_en": "Kemono Friends",
+        "type": "game",
+        "franchise": "けものフレンズ"
+      },
+      "danbooru": {
+        "character_tag": "african wild dog (kemono friends)",
+        "copyright_tag": "kemono_friends",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "リカオン",
+        "備考": "けものフレンズのフレンズ。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/african_wild_dog_%28kemono_friends%29"
+        },
+        {
+          "type": "official",
+          "url": "https://kemono-friends.jp/"
+        }
+      ],
+      "confidence": "high",
+      "status": "confirmed",
+      "review_note": "けものフレンズのフレンズ。"
+    },
+    {
+      "id": "char_000050_afuro_terumi",
+      "source": {
+        "source_index": 50,
+        "source_name": "亚风炉照美（闪电十一人）",
+        "source_tag": "afuro terumi"
+      },
+      "names": {
+        "ja": "亜風炉照美",
+        "en": "Terumi Afuro",
+        "zh": "亚风炉照美（闪电十一人）",
+        "aliases": [
+          "アフロディ"
+        ]
+      },
+      "work": {
+        "title_ja": "イナズマイレブン",
+        "title_original": "イナズマイレブン",
+        "title_en": "Inazuma Eleven",
+        "type": "game",
+        "franchise": "イナズマイレブン"
+      },
+      "danbooru": {
+        "character_tag": "afuro terumi",
+        "copyright_tag": "inazuma_eleven",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "亜風炉照美",
+        "備考": "イナズマイレブンのキャラクター。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/afuro_terumi"
+        },
+        {
+          "type": "official",
+          "url": "https://www.inazuma.jp/"
+        }
+      ],
+      "confidence": "high",
+      "status": "confirmed",
+      "review_note": "イナズマイレブンのキャラクター。"
+    },
+    {
+      "id": "char_000051_agano_kancolle",
+      "source": {
+        "source_index": 51,
+        "source_name": "阿贺野（舰队Collection）",
+        "source_tag": "agano (kancolle)"
+      },
+      "names": {
+        "ja": "阿賀野",
+        "en": "Agano",
+        "zh": "阿贺野（舰队Collection）",
+        "aliases": []
+      },
+      "work": {
+        "title_ja": "艦隊これくしょん -艦これ-",
+        "title_original": "艦隊これくしょん -艦これ-",
+        "title_en": "Kantai Collection",
+        "type": "game",
+        "franchise": "艦隊これくしょん"
+      },
+      "danbooru": {
+        "character_tag": "agano (kancolle)",
+        "copyright_tag": "kantai_collection",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "阿賀野",
+        "備考": "艦これの艦娘。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/agano_%28kancolle%29"
+        },
+        {
+          "type": "official",
+          "url": "https://www.dmm.com/netgame/feature/kancolle.html"
+        }
+      ],
+      "confidence": "high",
+      "status": "confirmed",
+      "review_note": "艦これの艦娘。"
+    },
+    {
+      "id": "char_000052_agatsuma_zenitsu",
+      "source": {
+        "source_index": 52,
+        "source_name": "我妻善逸（鬼灭之刃）",
+        "source_tag": "agatsuma zenitsu"
+      },
+      "names": {
+        "ja": "我妻善逸",
+        "en": "Zenitsu Agatsuma",
+        "zh": "我妻善逸（鬼灭之刃）",
+        "aliases": []
+      },
+      "work": {
+        "title_ja": "鬼滅の刃",
+        "title_original": "鬼滅の刃",
+        "title_en": "Demon Slayer: Kimetsu no Yaiba",
+        "type": "manga",
+        "franchise": "鬼滅の刃"
+      },
+      "danbooru": {
+        "character_tag": "agatsuma zenitsu",
+        "copyright_tag": "kimetsu_no_yaiba",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "我妻善逸",
+        "備考": "鬼滅の刃の主要キャラクター。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/agatsuma_zenitsu"
+        },
+        {
+          "type": "official",
+          "url": "https://kimetsu.com/anime/"
+        }
+      ],
+      "confidence": "high",
+      "status": "confirmed",
+      "review_note": "鬼滅の刃の主要キャラクター。"
+    },
+    {
+      "id": "char_000053_aggron_pokemon",
+      "source": {
+        "source_index": 53,
+        "source_name": "波士可多拉（宝可梦）",
+        "source_tag": "aggron (pokemon)"
+      },
+      "names": {
+        "ja": "ボスゴドラ",
+        "en": "Aggron",
+        "zh": "波士可多拉（宝可梦）",
+        "aliases": []
+      },
+      "work": {
+        "title_ja": "ポケットモンスター",
+        "title_original": "ポケットモンスター",
+        "title_en": "Pokémon",
+        "type": "game",
+        "franchise": "ポケットモンスター"
+      },
+      "danbooru": {
+        "character_tag": "aggron (pokemon)",
+        "copyright_tag": "pokemon",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "ボスゴドラ",
+        "備考": "ポケモン種族名であり個別キャラクターではないためキャラ情報化は要検討。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/aggron_%28pokemon%29"
+        },
+        {
+          "type": "official",
+          "url": "https://www.pokemon.co.jp/"
+        }
+      ],
+      "confidence": "high",
+      "status": "skipped",
+      "review_note": "ポケモン種族名であり個別キャラクターではないためキャラ情報化は要検討。"
+    },
+    {
+      "id": "char_000054_agnes_claudel",
+      "source": {
+        "source_index": 54,
+        "source_name": "亚妮艾丝·克劳蒂尔（英雄传说 黎之轨迹）",
+        "source_tag": "agnes claudel"
+      },
+      "names": {
+        "ja": "アニエス・クローデル",
+        "en": "Agnès Claudel",
+        "zh": "亚妮艾丝·克劳蒂尔（英雄传说 黎之轨迹）",
+        "aliases": []
+      },
+      "work": {
+        "title_ja": "英雄伝説 黎の軌跡",
+        "title_original": "英雄伝説 黎の軌跡",
+        "title_en": "The Legend of Heroes: Trails through Daybreak",
+        "type": "game",
+        "franchise": "英雄伝説"
+      },
+      "danbooru": {
+        "character_tag": "agnes claudel",
+        "copyright_tag": "legend_of_heroes",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "アニエス・クローデル",
+        "備考": "英雄伝説 黎の軌跡の主要キャラクター。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/agnes_claudel"
+        },
+        {
+          "type": "official",
+          "url": "https://www.falcom.co.jp/kuro/"
+        }
+      ],
+      "confidence": "high",
+      "status": "confirmed",
+      "review_note": "英雄伝説 黎の軌跡の主要キャラクター。"
+    },
+    {
+      "id": "char_000055_agnes_digital_umamusume",
+      "source": {
+        "source_index": 55,
+        "source_name": "爱丽数码（赛马娘）",
+        "source_tag": "agnes digital (umamusume)"
+      },
+      "names": {
+        "ja": "アグネスデジタル",
+        "en": "Agnes Digital",
+        "zh": "爱丽数码（赛马娘）",
+        "aliases": []
+      },
+      "work": {
+        "title_ja": "ウマ娘 プリティーダービー",
+        "title_original": "ウマ娘 プリティーダービー",
+        "title_en": "Umamusume: Pretty Derby",
+        "type": "game",
+        "franchise": "ウマ娘"
+      },
+      "danbooru": {
+        "character_tag": "agnes digital (umamusume)",
+        "copyright_tag": "umamusume",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "アグネスデジタル",
+        "備考": "ウマ娘 プリティーダービーの育成ウマ娘。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/agnes_digital_%28umamusume%29"
+        },
+        {
+          "type": "official",
+          "url": "https://umamusume.jp/"
+        }
+      ],
+      "confidence": "high",
+      "status": "confirmed",
+      "review_note": "ウマ娘 プリティーダービーの育成ウマ娘。"
+    },
+    {
+      "id": "char_000056_agnes_tachyon_lunatic_lab_umamusume",
+      "source": {
+        "source_index": 56,
+        "source_name": "爱丽速子（疯狂实验室）（赛马娘）",
+        "source_tag": "agnes tachyon (lunatic lab) (umamusume)"
+      },
+      "names": {
+        "ja": "アグネスタキオン（Lunatic Lab）",
+        "en": "Agnes Tachyon (Lunatic Lab)",
+        "zh": "爱丽速子（疯狂实验室）（赛马娘）",
+        "aliases": []
+      },
+      "work": {
+        "title_ja": "ウマ娘 プリティーダービー",
+        "title_original": "ウマ娘 プリティーダービー",
+        "title_en": "Umamusume: Pretty Derby",
+        "type": "game",
+        "franchise": "ウマ娘"
+      },
+      "danbooru": {
+        "character_tag": "agnes tachyon (lunatic lab) (umamusume)",
+        "copyright_tag": "umamusume",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "アグネスタキオン（Lunatic Lab）",
+        "備考": "衣装/別バージョンタグのため日本語正式衣装名は要確認。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/agnes_tachyon_%28lunatic_lab%29_%28umamusume%29"
+        },
+        {
+          "type": "official",
+          "url": "https://umamusume.jp/"
+        }
+      ],
+      "confidence": "medium",
+      "status": "needs_review",
+      "review_note": "衣装/別バージョンタグのため日本語正式衣装名は要確認。"
+    },
+    {
+      "id": "char_000057_agnes_tachyon_umamusume",
+      "source": {
+        "source_index": 57,
+        "source_name": "爱丽速子（赛马娘）",
+        "source_tag": "agnes tachyon (umamusume)"
+      },
+      "names": {
+        "ja": "アグネスタキオン",
+        "en": "Agnes Tachyon",
+        "zh": "爱丽速子（赛马娘）",
+        "aliases": []
+      },
+      "work": {
+        "title_ja": "ウマ娘 プリティーダービー",
+        "title_original": "ウマ娘 プリティーダービー",
+        "title_en": "Umamusume: Pretty Derby",
+        "type": "game",
+        "franchise": "ウマ娘"
+      },
+      "danbooru": {
+        "character_tag": "agnes tachyon (umamusume)",
+        "copyright_tag": "umamusume",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "アグネスタキオン",
+        "備考": "ウマ娘 プリティーダービーの育成ウマ娘。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/agnes_tachyon_%28umamusume%29"
+        },
+        {
+          "type": "official",
+          "url": "https://umamusume.jp/"
+        }
+      ],
+      "confidence": "high",
+      "status": "confirmed",
+      "review_note": "ウマ娘 プリティーダービーの育成ウマ娘。"
+    },
+    {
+      "id": "char_000058_agrias_oaks",
+      "source": {
+        "source_index": 58,
+        "source_name": "阿格莉亚丝·奥克斯（最终幻想14）",
+        "source_tag": "agrias oaks"
+      },
+      "names": {
+        "ja": "アグリアス・オークス",
+        "en": "Agrias Oaks",
+        "zh": "阿格莉亚丝·奥克斯（最终幻想14）",
+        "aliases": []
+      },
+      "work": {
+        "title_ja": "ファイナルファンタジータクティクス",
+        "title_original": "FINAL FANTASY TACTICS",
+        "title_en": "Final Fantasy Tactics",
+        "type": "game",
+        "franchise": "Final Fantasy"
+      },
+      "danbooru": {
+        "character_tag": "agrias oaks",
+        "copyright_tag": "final_fantasy_tactics",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "アグリアス・オークス",
+        "備考": "元CSVはFF14表記だが、キャラクターとしてはFFT由来。FF14内登場/参照との取り違え可能性あり。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/agrias_oaks"
+        },
+        {
+          "type": "official",
+          "url": "https://www.jp.square-enix.com/game/detail/fft/"
+        }
+      ],
+      "confidence": "medium",
+      "status": "needs_review",
+      "review_note": "元CSVはFF14表記だが、キャラクターとしてはFFT由来。FF14内登場/参照との取り違え可能性あり。"
+    },
+    {
+      "id": "char_000059_agumon_digimon",
+      "source": {
+        "source_index": 59,
+        "source_name": "亚古兽（数码宝贝）",
+        "source_tag": "agumon (digimon)"
+      },
+      "names": {
+        "ja": "アグモン",
+        "en": "Agumon",
+        "zh": "亚古兽（数码宝贝）",
+        "aliases": []
+      },
+      "work": {
+        "title_ja": "デジモンアドベンチャー",
+        "title_original": "デジモンアドベンチャー",
+        "title_en": "Digimon Adventure",
+        "type": "anime",
+        "franchise": "デジモン"
+      },
+      "danbooru": {
+        "character_tag": "agumon (digimon)",
+        "copyright_tag": "digimon",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "アグモン",
+        "備考": "デジモンシリーズの代表的デジモン。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/agumon_%28digimon%29"
+        },
+        {
+          "type": "official",
+          "url": "https://digimon.net/"
+        }
+      ],
+      "confidence": "high",
+      "status": "confirmed",
+      "review_note": "デジモンシリーズの代表的デジモン。"
+    },
+    {
+      "id": "char_000060_ahiru_princess_tutu",
+      "source": {
+        "source_index": 60,
+        "source_name": "雅喜儿（萩萩公主）",
+        "source_tag": "ahiru (princess tutu)"
+      },
+      "names": {
+        "ja": "あひる",
+        "en": "Ahiru",
+        "zh": "雅喜儿（萩萩公主）",
+        "aliases": [
+          "プリンセスチュチュ"
+        ]
+      },
+      "work": {
+        "title_ja": "プリンセスチュチュ",
+        "title_original": "プリンセスチュチュ",
+        "title_en": "Princess Tutu",
+        "type": "anime",
+        "franchise": "プリンセスチュチュ"
+      },
+      "danbooru": {
+        "character_tag": "ahiru (princess tutu)",
+        "copyright_tag": "princess_tutu",
+        "other_related_tags": []
+      },
+      "character_info_fields": {
+        "本名": "あひる",
+        "備考": "プリンセスチュチュの主人公。"
+      },
+      "character_info_line": "",
+      "sources": [
+        {
+          "type": "danbooru_wiki",
+          "url": "https://danbooru.donmai.us/wiki_pages/ahiru_%28princess_tutu%29"
+        },
+        {
+          "type": "major_reference",
+          "url": "https://ja.wikipedia.org/wiki/プリンセスチュチュ"
+        }
+      ],
+      "confidence": "high",
+      "status": "confirmed",
+      "review_note": "プリンセスチュチュの主人公。"
+    }
+  ]
+}
