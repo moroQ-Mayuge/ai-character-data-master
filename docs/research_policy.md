@@ -178,31 +178,62 @@ index,source_name,danbooru_tag
 
 定期実行する場合、1回の処理は以下とする。
 
-1. `data/org_charlist.csv` を読み込む。
-2. 進捗ファイルから未処理位置を確認する。
-3. 最大30件のみ処理する。
-4. 日本語名、作品名、Danbooruタグ、キャラ情報項目を調査する。
-5. 根拠URL、確信度、ステータスを記録する。
-6. 確信度が低いものは `needs_review` または `unresolved` にする。
-7. 結果ファイルと進捗ファイルを更新する。
+1. `data/progress.json` を読み込み、現在の進捗を確認する。
+2. `data/org_charlist.csv` から未処理位置以降を最大30件だけ取得する。
+3. 日本語名、作品名、Danbooruタグ、キャラ情報項目を調査する。
+4. 根拠URL、確信度、ステータスを記録する。
+5. 確信度が低いものは `needs_review` または `unresolved` にする。
+6. 結果ファイル、参照ログ、進捗ファイルを更新する。
+7. `data/run_history.jsonl` に実行履歴を追記する。
 8. GitHubへコミットする。
+9. コミット後に `data/progress.json` と該当結果ファイルを再取得し、実際に更新されたことを確認する。
 
-## 10. 出力候補
+## 10. 実行履歴ログ
+
+各自動実行の結果は `data/run_history.jsonl` に1実行1行のJSONL形式で記録する。
+
+最低限、以下の項目を含める。
+
+```json
+{
+  "run_started_at": "",
+  "run_finished_at": "",
+  "status": "success/failure/partial",
+  "source_file": "data/org_charlist.csv",
+  "start_source_index": 0,
+  "end_source_index": 0,
+  "processed_count": 0,
+  "result_file": "",
+  "source_log_file": "",
+  "progress_file": "data/progress.json",
+  "commit_sha": "",
+  "verified_after_commit": false,
+  "error": ""
+}
+```
+
+- `status` は `success`、`failure`、`partial` のいずれかとする。
+- コミット後検証まで成功した場合のみ `verified_after_commit` を `true` にする。
+- 失敗時は `error` に失敗理由を記録する。
+- 再実行や途中失敗があっても、履歴行は削除せず追記する。
+
+## 11. 出力候補
 
 将来的な出力先は以下を想定する。
 
 ```text
 data/org_charlist.csv                 # 調査用原本
-\data/progress.json                    # 進捗管理
-\data/results/                         # 調査済みJSON
-\data/unresolved.csv                   # 未解決・要確認一覧
-\data/sources.jsonl                    # 参照URLログ
+data/progress.json                    # 進捗管理
+data/run_history.jsonl                # 実行履歴ログ
+data/results/                         # 調査済みJSON
+data/unresolved.csv                   # 未解決・要確認一覧
+data/sources.jsonl                    # 参照URLログ
 exports/characters_master.csv          # 集約CSV
 exports/characters_master.jsonl        # 集約JSONL
 exports/illustrious_tags.csv           # Illustrious向けタグ確認表
 ```
 
-## 11. 重要方針
+## 12. 重要方針
 
 - 原本CSVは直接変更しない。
 - 調査結果は必ず別ファイルに保存する。
