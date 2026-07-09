@@ -1,0 +1,71 @@
+{
+  "lorebookVersion": 3,
+  "name": "sample_random_3_from_ai_character_data_master",
+  "description": "Sample NovelAI Lorebook generated from 3 characters in ai-character-data-master.",
+  "entries": [
+    {
+      "displayName": "天宮えれな / スター☆トゥインクルプリキュア",
+      "keys": [
+        "天宮えれな",
+        "Elena Amamiya",
+        "amamiya_elena",
+        "スター☆トゥインクルプリキュア",
+        "キュアソレイユ"
+      ],
+      "text": "天宮えれな（Elena Amamiya）は『スター☆トゥインクルプリキュア』のキャラクター。種別: anime。Danbooruキャラクタータグ: amamiya_elena。作品タグ: star_twinkle_precure。概要: 観星中に通うプリキュアの一人。変身後はキュアソレイユ。",
+      "enabled": true,
+      "alwaysOn": false,
+      "searchRange": 1000,
+      "priority": 0,
+      "caseSensitive": false,
+      "matchWholeWords": false,
+      "id": "char_000181_amamiya_elena",
+      "comment": "Generated from ai-character-data-master sample batch_000181_000210.json"
+    },
+    {
+      "displayName": "天音かなた / ホロライブ",
+      "keys": [
+        "天音かなた",
+        "Kanata Amane",
+        "amane_kanata",
+        "ホロライブ"
+      ],
+      "text": "天音かなた（Kanata Amane）は『ホロライブ』のキャラクター。種別: vtuber。Danbooruキャラクタータグ: amane_kanata。作品タグ: hololive。概要: ホロライブ所属のバーチャルYouTuber。",
+      "enabled": true,
+      "alwaysOn": false,
+      "searchRange": 1000,
+      "priority": 0,
+      "caseSensitive": false,
+      "matchWholeWords": false,
+      "id": "char_000185_amane_kanata",
+      "comment": "Generated from ai-character-data-master sample batch_000181_000210.json"
+    },
+    {
+      "displayName": "天野陽菜 / 天気の子",
+      "keys": [
+        "天野陽菜",
+        "Hina Amano",
+        "amano_hina_(tenki_no_ko)",
+        "天気の子"
+      ],
+      "text": "天野陽菜（Hina Amano）は『天気の子』のキャラクター。種別: anime。Danbooruキャラクタータグ: amano_hina_(tenki_no_ko)。作品タグ: tenki_no_ko。概要: 映画『天気の子』のヒロイン。",
+      "enabled": true,
+      "alwaysOn": false,
+      "searchRange": 1000,
+      "priority": 0,
+      "caseSensitive": false,
+      "matchWholeWords": false,
+      "id": "char_000190_amano_hina_tenki_no_ko",
+      "comment": "Generated from ai-character-data-master sample batch_000181_000210.json"
+    }
+  ],
+  "settings": {
+    "orderByKeyLocations": false
+  },
+  "metadata": {
+    "source_repository": "moroQ-Mayuge/ai-character-data-master",
+    "source_file": "data/results/batch_000181_000210.json",
+    "created_at": "2026-07-10T00:00:00+09:00",
+    "note": "Trial export. Verify import behavior in NovelAI before using as canonical format."
+  }
+}
