@@ -2,12 +2,12 @@
   "schema_version": "0.1",
   "source_file": "data/org_charlist.csv",
   "source_file_sha": "93194dd072c2f14d013d0e7b9938fb740db7714a",
-  "last_processed_source_index": 2840,
-  "processed_count": 2840,
-  "confirmed_count": 2410,
-  "needs_review_count": 375,
+  "last_processed_source_index": 2870,
+  "processed_count": 2870,
+  "confirmed_count": 2436,
+  "needs_review_count": 377,
   "unresolved_count": 5,
-  "skipped_count": 50,
-  "updated_at": "2026-08-22T14:02:53+09:00",
-  "last_batch_file": "data/results/batch_002811_002840.json"
+  "skipped_count": 52,
+  "updated_at": "2026-08-22T16:02:44+09:00",
+  "last_batch_file": "data/results/batch_002841_002870.json"
 }
